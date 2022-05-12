@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 100px;
+  font-size:x-large;
+  font-weight: bolder;
+
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.74);
+  font-weight: normal;
+  
+
+}
+
+.select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.cart-items{
+  width:90%;
+  align-content:center;
+  padding:20px;
+  margin:20px;
+  /* border:solid 1px black;
+  border-radius:5px; */
+  background-color: rgb(233, 236, 235);
+  
+}
+
+#table tr td{
+  border:solid 1px black;
+  border-collapse: collapse;
+  padding:20px;
+  text-align: center;
+  background-color: aliceblue;
+}
+#table{
+  margin-left:100px;
+}
+thead{
+  font-weight: bold;
+}
+.total{
+  font-weight: bold;
+  text-align: right !important; 
+}
